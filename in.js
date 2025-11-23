@@ -459,6 +459,6 @@ function searchFlights() {
   }
 
   // Redirect to another page
-  window.location.href = "bookingresult.html"; 
+  window.location.href = "404.html"; 
 }
 
