@@ -613,7 +613,7 @@ section:nth-child(even) { background: #fff; }
 /* MOBILE VIEW */
 @media (max-width: 600px) {
   #desktop-date {
-    display: none; /* Hide default picker */
+    display: none;
   }
 
   .mobile-date-picker {
@@ -622,12 +622,13 @@ section:nth-child(even) { background: #fff; }
 
   .mobile-date-picker select {
     width: 32%;
-    padding: 15px;
-    font-size: 18px;
+    padding: 14px;
+    font-size: 16px;
     border-radius: 8px;
     border: 1px solid #ccc;
   }
 }
+
 
 
 
